@@ -1,0 +1,43 @@
+nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    max-height: 70px;
+    margin:none;
+    align-items: center;
+    padding-left: 60px ;
+    padding-right: 60px;
+   
+}
+.nav1{
+    font-family: "Arimo", sans-serif;
+    font-weight: bold;
+    line-height: 0.5px;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+   }
+
+   .nav-2 a{ text-decoration: none;}
+ul{
+    list-style: none;
+}
+.c-button{
+background-color: #1d4ed8;
+color: white;
+font-weight: bold;
+font-size: 13px;
+padding: 12px 35px;
+border-radius: 6px;
+border: none;
+
+}
+.logo-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
