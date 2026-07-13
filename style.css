@@ -22,7 +22,10 @@ nav{
     gap: 30px;
    }
 
-   .nav-2 a{ text-decoration: none;}
+   .nav-2 a{ text-decoration: none;
+color: #575757;
+ font-family: "Arimo", sans-serif;
+}
 ul{
     list-style: none;
 }
@@ -41,3 +44,44 @@ border: none;
     align-items: center;
     gap: 5px;
 }
+.banner{ 
+  background-image: url(./assets/banner.jpg);
+    display: flex;
+  font-family: "Inter", sans-serif;
+  position: relative;
+z-index: 1;
+ text-align: center;
+ justify-content: center;
+ flex-direction: column;
+ min-height: 90vh;
+ color: #ffffff;
+ background-position: center;
+ align-items: center;
+ background-size: cover;
+}
+.text2{
+    font-style: italic;
+}
+
+.text1{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.text-1{
+    font-family: "Inter", sans-serif;
+  max-width: 650px;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 18px;
+  margin-top: 25px;
+  
+}
+ .introduction{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+ }
