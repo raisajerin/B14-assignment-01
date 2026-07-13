@@ -222,3 +222,14 @@ color: rgb(99, 149, 235);
     background-color: #457aef;
     color: #e5e7eb;
 }
+
+.footer{
+text-align: center;
+padding: 10px 210px;
+background-color: #1c283a;
+border: none;
+color: #ffffff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
